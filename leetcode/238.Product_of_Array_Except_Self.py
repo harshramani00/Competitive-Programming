@@ -1,3 +1,5 @@
+# Time Complexity is O(n)
+
 class Solution(object):
     def productExceptSelf(self, nums):
         """
@@ -5,15 +7,14 @@ class Solution(object):
         :rtype: List[int]
         """
         length = len(nums)
-        ans = [1] * length  # Initialize the answer array with 1's
+        ans = [1] * length
         
-        # Calculate the prefix products
+        
         prefix = 1
         for i in range(length):
             ans[i] = prefix
             prefix *= nums[i]
         
-        # Calculate the suffix products and multiply with the prefix products
         suffix = 1
         for i in range(length - 1, -1, -1):
             ans[i] *= suffix
