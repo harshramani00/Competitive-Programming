@@ -17,3 +17,4 @@ class Solution(object):
                 r -= 1
         
         return mv
+#TIME COMPLEXITY IS O(n). Due to for loop
