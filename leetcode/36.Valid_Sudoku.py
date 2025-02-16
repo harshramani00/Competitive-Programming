@@ -18,4 +18,4 @@ class Solution(object):
                 cols[c].add(board[r][c])
                 sqr[(r//3, c//3)].add(board[r][c])
         return True
-# Time Complexity is O(n^2)
+# Time Complexity is O(n^2) Hello
