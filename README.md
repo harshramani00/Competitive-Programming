@@ -18,10 +18,10 @@ I enjoy switching between languages depending on the problem and what I want to 
 
 ## 🚀 Platforms
 
-### 🔹 [LeetCode]
+### 🔹 LeetCode
 Solving problems across various topics like arrays, strings, dynamic programming, trees, graphs, and more.
 
-### 🔸 [Codewars]
+### 🔸 Codewars
 Practicing short, clever coding challenges (kata) to build logic and explore alternative solutions.
 
 ---
